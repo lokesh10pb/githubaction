@@ -1,1 +1,12 @@
+name: demo 
+on:  [push]
+jobs:   
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      -  name: print a message 
+         run: echo "hello github actions"
+    
+
+
 
